@@ -1,0 +1,31 @@
+2017-02-21 13:03:52,883 [main] INFO  - ################################### (com.feidee.money.server.core.Bootstrap:15) -665 
+2017-02-21 13:03:52,902 [main] INFO  - start spring container.... (com.feidee.money.server.core.Bootstrap:16) -684 
+2017-02-21 13:03:54,065 [main] DEBUG - Using SLF4J as the default logging framework (io.netty.util.internal.logging.Slf4JLogger:71) -1847
+2017-02-21 13:03:54,068 [main] DEBUG - java.nio.Buffer.address: available (io.netty.util.internal.logging.Slf4JLogger:76) -1850
+2017-02-21 13:03:54,069 [main] DEBUG - sun.misc.Unsafe.theUnsafe: available (io.netty.util.internal.logging.Slf4JLogger:76) -1851
+2017-02-21 13:03:54,070 [main] DEBUG - sun.misc.Unsafe.copyMemory: available (io.netty.util.internal.logging.Slf4JLogger:71) -1852
+2017-02-21 13:03:54,071 [main] DEBUG - java.nio.Bits.unaligned: true (io.netty.util.internal.logging.Slf4JLogger:76) -1853
+2017-02-21 13:03:54,072 [main] DEBUG - Platform: Windows (io.netty.util.internal.logging.Slf4JLogger:71) -1854
+2017-02-21 13:03:54,072 [main] DEBUG - Java version: 8 (io.netty.util.internal.logging.Slf4JLogger:76) -1854
+2017-02-21 13:03:54,072 [main] DEBUG - -Dio.netty.noUnsafe: false (io.netty.util.internal.logging.Slf4JLogger:76) -1854
+2017-02-21 13:03:54,073 [main] DEBUG - sun.misc.Unsafe: available (io.netty.util.internal.logging.Slf4JLogger:76) -1855
+2017-02-21 13:03:54,074 [main] DEBUG - -Dio.netty.noJavassist: false (io.netty.util.internal.logging.Slf4JLogger:76) -1856
+2017-02-21 13:03:54,074 [main] DEBUG - Javassist: unavailable (io.netty.util.internal.logging.Slf4JLogger:71) -1856
+2017-02-21 13:03:54,074 [main] DEBUG - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance. (io.netty.util.internal.logging.Slf4JLogger:71) -1856
+2017-02-21 13:03:54,075 [main] DEBUG - -Dio.netty.tmpdir: C:\Users\yiban\AppData\Local\Temp (java.io.tmpdir) (io.netty.util.internal.logging.Slf4JLogger:76) -1857
+2017-02-21 13:03:54,075 [main] DEBUG - -Dio.netty.bitMode: 64 (sun.arch.data.model) (io.netty.util.internal.logging.Slf4JLogger:76) -1857
+2017-02-21 13:03:54,075 [main] DEBUG - -Dio.netty.noPreferDirect: false (io.netty.util.internal.logging.Slf4JLogger:76) -1857
+2017-02-21 13:03:54,109 [main] INFO  - Mapping url [/ssj-server/header] to bean : headerHandler (com.feidee.money.server.handler.GlobleHandler:108) -1891
+2017-02-21 13:03:54,110 [main] INFO  - Mapping url [/ssj-server/] to bean : indexHandler (com.feidee.money.server.handler.GlobleHandler:108) -1892
+2017-02-21 13:03:54,297 [main] INFO  - end spring container... (com.feidee.money.server.core.Bootstrap:19) -2079
+2017-02-21 13:03:54,297 [main] INFO  - ################################### (com.feidee.money.server.core.Bootstrap:20) -2079
+2017-02-21 13:03:54,301 [NettyThread] DEBUG - -Dio.netty.eventLoopThreads: 8 (io.netty.util.internal.logging.Slf4JLogger:76) -2083
+2017-02-21 13:03:54,335 [NettyThread] DEBUG - -Dio.netty.noKeySetOptimization: false (io.netty.util.internal.logging.Slf4JLogger:76) -2117
+2017-02-21 13:03:54,335 [NettyThread] DEBUG - -Dio.netty.selectorAutoRebuildThreshold: 512 (io.netty.util.internal.logging.Slf4JLogger:76) -2117
+2017-02-21 13:03:54,536 [NettyThread] DEBUG - -Dio.netty.initialSeedUniquifier: 0xf33001fb51ac74d0 (took 97 ms) (io.netty.util.internal.logging.Slf4JLogger:71) -2318
+2017-02-21 13:03:54,571 [NettyThread] DEBUG - -Dio.netty.allocator.type: unpooled (io.netty.util.internal.logging.Slf4JLogger:76) -2353
+2017-02-21 13:03:54,571 [NettyThread] DEBUG - -Dio.netty.threadLocalDirectBufferSize: 65536 (io.netty.util.internal.logging.Slf4JLogger:76) -2353
+2017-02-21 13:03:54,571 [NettyThread] DEBUG - -Dio.netty.maxThreadLocalCharBufferSize: 16384 (io.netty.util.internal.logging.Slf4JLogger:76) -2353
+2017-02-21 13:03:54,694 [NettyThread] DEBUG - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) (io.netty.util.internal.logging.Slf4JLogger:86) -2476
+2017-02-21 13:03:54,695 [NettyThread] DEBUG - \proc\sys\net\core\somaxconn: 200 (non-existent) (io.netty.util.internal.logging.Slf4JLogger:81) -2477
+2017-02-21 13:03:54,704 [NettyThread] INFO  - Open your web browser and navigate to  http://127.0.0.1:8888/ssj-server/ (com.feidee.money.server.core.NettyContainer:57) -2486
