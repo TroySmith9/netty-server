@@ -1,0 +1,8 @@
+target/
+.settings/
+.idea/
+netty-server.iml
+.project
+.classpath
+/bin/
+logs/
