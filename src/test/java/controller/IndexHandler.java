@@ -1,8 +1,8 @@
 package controller;
 
 import com.alibaba.fastjson.JSONObject;
-import cn.test.netty.server.core.RequestMapping;
-import cn.test.netty.server.handler.BaseHandler;
+import cn.netty.server.core.RequestMapping;
+import cn.netty.server.handler.BaseHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.http.FullHttpRequest;
 import io.netty.handler.codec.http.HttpResponseStatus;

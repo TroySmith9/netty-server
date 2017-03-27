@@ -1,6 +1,6 @@
-package cn.test.netty.server.handler;
+package cn.netty.server.handler;
 
-import cn.test.netty.server.core.RequestMapping;
+import cn.netty.server.core.RequestMapping;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;

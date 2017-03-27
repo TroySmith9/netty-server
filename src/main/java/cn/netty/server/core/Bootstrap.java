@@ -1,4 +1,4 @@
-package cn.test.netty.server.core;
+package cn.netty.server.core;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

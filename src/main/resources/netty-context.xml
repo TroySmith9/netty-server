@@ -3,11 +3,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 	<!-- init child channel -->
-	<bean class="cn.test.netty.server.core.ServerInitializer" />
+	<bean class="cn.netty.server.core.ServerInitializer" />
 
 	<!-- container -->
-	<bean class="cn.test.netty.server.core.NettyContainer"/>
+	<bean class="cn.netty.server.core.NettyContainer"/>
 
-    <bean class="cn.test.netty.server.handler.GlobleHandler" />
+    <bean class="cn.netty.server.handler.GlobleHandler" />
 	
 </beans>

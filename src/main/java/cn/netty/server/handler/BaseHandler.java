@@ -1,4 +1,4 @@
-package cn.test.netty.server.handler;
+package cn.netty.server.handler;
 
 import com.alibaba.fastjson.JSONObject;
 import io.netty.buffer.Unpooled;

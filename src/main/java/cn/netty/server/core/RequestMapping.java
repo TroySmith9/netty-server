@@ -1,4 +1,4 @@
-package cn.test.netty.server.core;
+package cn.netty.server.core;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

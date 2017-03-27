@@ -1,6 +1,6 @@
-package cn.test.netty.server.core;
+package cn.netty.server.core;
 
-import cn.test.netty.server.handler.GlobleHandler;
+import cn.netty.server.handler.GlobleHandler;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;

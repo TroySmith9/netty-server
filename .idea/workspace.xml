@@ -7,14 +7,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Bootstrap.java" afterPath="$PROJECT_DIR$/src/test/java/Bootstrap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/controller/HeaderHandler.java" afterPath="$PROJECT_DIR$/src/test/java/controller/HeaderHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/controller/IndexHandler.java" afterPath="$PROJECT_DIR$/src/test/java/controller/IndexHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/feidee/money/server/core/Bootstrap.java" afterPath="$PROJECT_DIR$/src/main/java/cn/test/netty/server/core/Bootstrap.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/feidee/money/server/core/Handler.java" afterPath="$PROJECT_DIR$/src/main/java/cn/test/netty/server/core/Handler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/feidee/money/server/core/NettyContainer.java" afterPath="$PROJECT_DIR$/src/main/java/cn/test/netty/server/core/NettyContainer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/feidee/money/server/core/RequestMapping.java" afterPath="$PROJECT_DIR$/src/main/java/cn/test/netty/server/core/RequestMapping.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/feidee/money/server/core/ServerInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/cn/test/netty/server/core/ServerInitializer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/feidee/money/server/handler/BaseHandler.java" afterPath="$PROJECT_DIR$/src/main/java/cn/test/netty/server/handler/BaseHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/feidee/money/server/handler/GlobleHandler.java" afterPath="$PROJECT_DIR$/src/main/java/cn/test/netty/server/handler/GlobleHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/feidee/money/server/handler/Handler.java" afterPath="$PROJECT_DIR$/src/main/java/cn/test/netty/server/handler/Handler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/test/netty/server/core/Bootstrap.java" afterPath="$PROJECT_DIR$/src/main/java/cn/netty/server/core/Bootstrap.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/test/netty/server/core/Handler.java" afterPath="$PROJECT_DIR$/src/main/java/cn/netty/server/core/Handler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/test/netty/server/core/NettyContainer.java" afterPath="$PROJECT_DIR$/src/main/java/cn/netty/server/core/NettyContainer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/test/netty/server/core/RequestMapping.java" afterPath="$PROJECT_DIR$/src/main/java/cn/netty/server/core/RequestMapping.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/test/netty/server/core/ServerInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/cn/netty/server/core/ServerInitializer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/test/netty/server/handler/BaseHandler.java" afterPath="$PROJECT_DIR$/src/main/java/cn/netty/server/handler/BaseHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/test/netty/server/handler/GlobleHandler.java" afterPath="$PROJECT_DIR$/src/main/java/cn/netty/server/handler/GlobleHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/cn/test/netty/server/handler/Handler.java" afterPath="$PROJECT_DIR$/src/main/java/cn/netty/server/handler/Handler.java" />
     </list>
     <list id="699d5637-e8cf-47db-842c-49fd174d92a8" name="Failed commit: Default" comment="11" />
     <ignored path="netty-server.iws" />
@@ -49,7 +49,7 @@
         </entry>
       </file>
       <file leaf-file-name="GlobleHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/test/netty/server/handler/GlobleHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/netty/server/handler/GlobleHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="307">
               <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
@@ -79,6 +79,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/feidee/money/server/handler/GlobleHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/test/netty/server/handler/GlobleHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Bootstrap.java" />
       </list>
     </option>
   </component>
@@ -727,7 +728,7 @@
       <updated>1487652733935</updated>
       <workItem from="1487652738329" duration="1289000" />
       <workItem from="1487729722483" duration="2348000" />
-      <workItem from="1490599520576" duration="42000" />
+      <workItem from="1490599520576" duration="199000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1487733179196</created>
@@ -736,11 +737,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487733179196</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="11">
+      <created>1490599571552</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1490599571552</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3679000" />
+    <option name="totallyTimeSpent" value="3836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="22" width="1936" height="1066" extended-state="6" />
@@ -813,7 +821,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/test/netty/server/handler/GlobleHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netty/server/handler/GlobleHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -829,7 +837,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/test/netty/server/handler/GlobleHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netty/server/handler/GlobleHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -845,7 +853,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/test/netty/server/handler/GlobleHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/netty/server/handler/GlobleHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
