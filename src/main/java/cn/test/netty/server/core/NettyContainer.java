@@ -1,4 +1,4 @@
-package com.feidee.money.server.core;
+package cn.test.netty.server.core;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.Channel;

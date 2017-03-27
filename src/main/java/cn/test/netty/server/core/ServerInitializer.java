@@ -1,6 +1,6 @@
-package com.feidee.money.server.core;
+package cn.test.netty.server.core;
 
-import com.feidee.money.server.handler.GlobleHandler;
+import cn.test.netty.server.handler.GlobleHandler;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;

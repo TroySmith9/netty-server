@@ -1,4 +1,4 @@
-package com.feidee.money.server.core;
+package cn.test.netty.server.core;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

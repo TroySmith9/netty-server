@@ -1,4 +1,4 @@
-package com.feidee.money.server.core;
+package cn.test.netty.server.core;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

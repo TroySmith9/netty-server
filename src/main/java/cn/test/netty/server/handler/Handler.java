@@ -1,4 +1,4 @@
-package com.feidee.money.server.handler;
+package cn.test.netty.server.handler;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.http.FullHttpRequest;

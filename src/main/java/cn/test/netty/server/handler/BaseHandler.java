@@ -1,4 +1,4 @@
-package com.feidee.money.server.handler;
+package cn.test.netty.server.handler;
 
 import com.alibaba.fastjson.JSONObject;
 import io.netty.buffer.Unpooled;

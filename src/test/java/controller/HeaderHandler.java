@@ -1,7 +1,7 @@
 package controller;
 
-import com.feidee.money.server.core.RequestMapping;
-import com.feidee.money.server.handler.BaseHandler;
+import cn.test.netty.server.core.RequestMapping;
+import cn.test.netty.server.handler.BaseHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.http.FullHttpRequest;
 import org.springframework.stereotype.Controller;
