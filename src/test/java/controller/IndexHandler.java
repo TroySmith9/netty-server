@@ -10,9 +10,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 
-/**
- * Created by tingsky on 16/5/22.
- */
 @Controller
 @RequestMapping("/")
 public class IndexHandler extends BaseHandler{

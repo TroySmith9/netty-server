@@ -24,9 +24,6 @@ import static io.netty.handler.codec.http.HttpResponseStatus.BAD_REQUEST;
 import static io.netty.handler.codec.http.HttpResponseStatus.FORBIDDEN;
 import static io.netty.handler.codec.http.HttpResponseStatus.INTERNAL_SERVER_ERROR;
 
-/**
- * Created by tingsky on 16/5/16.
- */
 @ChannelHandler.Sharable
 public class GlobleHandler extends SimpleChannelInboundHandler<FullHttpRequest> implements BeanFactoryPostProcessor, ApplicationContextAware {
 

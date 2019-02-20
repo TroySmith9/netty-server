@@ -8,9 +8,6 @@ import org.springframework.stereotype.Controller;
 
 import java.util.Map;
 
-/**
- * Created by tingsky on 16/6/14.
- */
 @Controller
 @RequestMapping("/header")
 public class HeaderHandler extends BaseHandler {

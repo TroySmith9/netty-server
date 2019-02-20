@@ -9,9 +9,6 @@ import io.netty.handler.codec.http.HttpServerCodec;
 import io.netty.handler.stream.ChunkedWriteHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 
-/**
- * Created by tingsky on 16/5/2.
- */
 public class ServerInitializer extends ChannelInitializer<SocketChannel> {
 
     @Autowired

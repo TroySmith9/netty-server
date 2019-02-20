@@ -17,9 +17,6 @@ import java.nio.charset.Charset;
 import static io.netty.handler.codec.http.HttpHeaders.Names.CONTENT_TYPE;
 import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;
 
-/**
- * Created by tingsky on 16/6/14.
- */
 public abstract class BaseHandler implements Handler{
     private static final Logger log = LoggerFactory.getLogger(BaseHandler.class);
 

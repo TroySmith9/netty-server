@@ -25,9 +25,6 @@ import static io.netty.handler.codec.http.HttpResponseStatus.*;
 import static io.netty.handler.codec.http.HttpResponseStatus.NOT_MODIFIED;
 import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;
 
-/**
- * Created by tingsky on 16/5/2.
- */
 public class Handler extends SimpleChannelInboundHandler<FullHttpRequest> {
 
     public static final String HTTP_DATE_FORMAT = "EEE, dd MMM yyyy HH:mm:ss zzz";

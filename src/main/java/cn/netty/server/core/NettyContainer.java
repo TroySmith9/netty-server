@@ -13,9 +13,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 
-/**
- * Created by tingsky on 16/5/19.
- */
 public class NettyContainer implements ApplicationListener<ContextRefreshedEvent> {
     private static final Logger log = LoggerFactory.getLogger(NettyContainer.class);
 
